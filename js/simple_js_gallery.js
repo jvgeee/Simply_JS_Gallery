@@ -1,11 +1,9 @@
 //Javascript Image Changer
-function simple_js_gallery(element){
+function simple_js_gallery(element, array){
 
 	var selectedElement = document.getElementById(element);
 
 	var currentImage = selectedElement.getElementsByTagName("img")[0];
-
-	var imageArray = ["img/1.jpg", "img/2.jpg", "img/3.jpg", "img/4.jpg"]; //Put images in an array
 
 	var imageIndex= 0;
 
